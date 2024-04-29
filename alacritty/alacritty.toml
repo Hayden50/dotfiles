@@ -9,6 +9,8 @@ import = [
 [window]
 opacity = 0.98
 decorations = "full"
+padding.x = 3
+padding.y = 3
 
 [font]
 size = 14.0
