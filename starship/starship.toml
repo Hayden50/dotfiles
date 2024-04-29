@@ -17,3 +17,6 @@ disabled = true
 
 [conda]
 ignore_base = true
+
+[directory]
+truncate_to_repo = false
