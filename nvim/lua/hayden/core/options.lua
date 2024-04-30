@@ -1,33 +1,18 @@
+vim.cmd("let g:netrw_liststyle = 3")
+
 local opt = vim.opt
 
--- Line Edits
+-- lines
 opt.relativenumber = true
-opt.number = true
+opt.cursorline = true
 
--- tabs and indentation
-opt.tabstop = 2
-opt.shiftwidth = 2
-opt.expandtab = true
-opt.autoindent = true
-
--- line wrapping
-opt.wrap = false
-
--- searching
+-- search
 opt.ignorecase = true
 opt.smartcase = true
 
--- appearance
+-- theme
 opt.termguicolors = true
 
--- backspace 
+-- QoL
+opt.clipboard:append("unnamedplus")  -- uses system clipboard
 opt.backspace = "indent,eol,start"
-
--- clipboard
-opt.clipboard:append("unnamedplus")
-
--- windows
-opt.splitright = true
-opt.splitbelow = true
-
-opt.iskeyword:append("-")
