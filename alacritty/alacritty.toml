@@ -1,5 +1,5 @@
 import = [
-    "~/dotfiles/alacritty/themes/themes/citylights.toml"
+    "~/dotfiles/alacritty/themes/themes/everforest_dark.toml"
 ]
 
 [shell]
