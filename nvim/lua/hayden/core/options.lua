@@ -17,6 +17,7 @@ opt.smartcase = true
 
 -- theme
 opt.termguicolors = true
+opt.background = "dark" 
 
 -- QoL
 opt.clipboard:append("unnamedplus")  -- uses system clipboard
