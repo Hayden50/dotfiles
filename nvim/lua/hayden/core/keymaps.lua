@@ -14,6 +14,13 @@ keymap.set('n', '<S-Tab>', ':tabprevious<CR>');
 keymap.set('n', '<leader><leader>', ':tabnew<CR>'); -- creates a new tab 
 keymap.set('n', '<leader>|', ':vsplit<CR>') -- creates a vertical window
 keymap.set('n', '<leader>-', ':split<CR>') -- creates a horizontal window
-     
+
+-- Telescope Configs
+keymap.set('n', '<leader>ff', ":Telescope find_files<CR>", {desc = "Telescope: Find Files " })
+keymap.set('n', '<leader>fg', ":Telescope live_grep<CR>", {})
+keymap.set('n', '<leader>fb', ":Telescope buffers<CR>", {})
+keymap.set('n', '<leader>fh', ":Telescope help_tags<CR>", {})
+keymap.set('n', '<leader>fs', ":Telescope grep_string<CR>", {})
+
 -- Visual Mode 
 keymap.set("v", "y", "ygv<esc>")   
