@@ -1,5 +1,5 @@
 import = [
-    "~/dotfiles/alacritty/themes/themes/nordic.toml"
+    "~/dotfiles/alacritty/themes/themes/gruvbox_dark.toml"
 ]
 
 # [shell]
@@ -20,3 +20,5 @@ size = 15.0
 
 [env]
 term = "xterm-256color"
+COLORTERM = "truecolor"
+
