@@ -1,15 +1,16 @@
 import = [
-    "~/dotfiles/alacritty/themes/themes/gruvbox_dark.toml"
+    "~/dotfiles/alacritty/themes/themes/one_dark.toml"
 ]
 
-# [shell]
-# program = "/bin/zsh"
-# args = ["-l", "-c", "tmux attach || tmux"]
+[shell]
+program = "/bin/zsh"
+args = ["-l", "-c", "source ~/.zshrc && (tmux attach || tmux new)"]
+
 
 [window]
 decorations = "full"
-padding.x = 3
-padding.y = 3
+padding.x = 0
+padding.y = 0
 
 [font]
 normal = {family = "JetBrainsMono Nerd Font Mono", style = "Regular"}
