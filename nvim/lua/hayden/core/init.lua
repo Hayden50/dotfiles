@@ -1,2 +1,3 @@
 require("hayden.core.options")
-require("hayden.core.keymaps")
+require("hayden.core.mappings")
+require("hayden.core.lsp")
