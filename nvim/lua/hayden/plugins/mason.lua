@@ -27,6 +27,7 @@ return {
         "black",
         "pylint",
         "eslint_d",
+        "clangd",
       },
     })
   end,
